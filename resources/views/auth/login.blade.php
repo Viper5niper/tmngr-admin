@@ -9,7 +9,7 @@
             <div class="card p-4">
               <div class="card-body">
                 <h1>Login</h1>
-                <p class="text-muted">Sign In to your account</p>
+                <p class="text-muted">Ingresa tus datos</p>
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <div class="input-group mb-3">
@@ -20,7 +20,7 @@
                         </svg>
                       </span>
                     </div>
-                    <input class="form-control" type="text" placeholder="{{ __('E-Mail Address') }}" name="email" value="{{ old('email') }}" required autofocus>
+                    <input class="form-control" type="text" placeholder="{{ __('Ingrese su codigo') }}" name="Codigo" value="{{ old('Codigo') }}" required autofocus>
                     </div>
                     <div class="input-group mb-4">
                     <div class="input-group-prepend">
@@ -30,7 +30,7 @@
                         </svg>
                       </span>
                     </div>
-                    <input class="form-control" type="password" placeholder="{{ __('Password') }}" name="password" required>
+                    <input class="form-control" type="Password" placeholder="{{ __('Contraseña') }}" name="Password" required>
                     </div>
                     <div class="row">
                     <div class="col-6">
